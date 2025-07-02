@@ -622,7 +622,7 @@ body.dark-theme{
   display: inline-flex;
   align-items: center;
   column-gap: .25rem;
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   font-family: var(--second-font);
   color: var(--title-color);
   margin-bottom: 1rem;
@@ -630,6 +630,10 @@ body.dark-theme{
 
 .footer__logo img{
   width: 1.25rem;
+}
+
+.footer__description{
+  margin-left: 27px;
 }
 
 .footer__data{
@@ -1017,7 +1021,7 @@ body.dark-theme{
     justify-content: space-between;
    }
    .footer__logo{
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     margin-bottom: 1.5rem;
    }
    .footer__data{
