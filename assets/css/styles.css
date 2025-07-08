@@ -1055,3 +1055,85 @@ body.dark-theme{
       right: 3rem;
     }
 }
+
+
+/* Container holding the buttons */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Button style */
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  min-width: 160px;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Icon inside the button */
+.contact-btn i {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+/* Specific styles for Gmail */
+.gmail-btn {
+  background-color: #ea4335;
+}
+
+.gmail-btn:hover {
+  background-color: #c23321;
+}
+
+/* Specific styles for WhatsApp */
+.whatsapp-btn {
+  background-color: #25D366;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .contact-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-btn {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
+
+.review-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.review-btn:hover {
+  background-color: #218838;
+}
